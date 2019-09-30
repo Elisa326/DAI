@@ -64,3 +64,12 @@
         }
         return mcd;
     }
+    
+    public static String apocaliptico(int num){
+        int res;
+        String ap;
+        res = Math.Pow(2,num)
+        ap = "" + res;
+        if(res.contains("666"))
+            return "Es apocalíptico";
+        return "No es apocalíptico";
